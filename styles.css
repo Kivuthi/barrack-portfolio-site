@@ -1,0 +1,38 @@
+.project-section{
+    margin: 20px;
+    margin-left: 22rem;
+    max-width: 1200px;
+    justify-content: space-evenly;
+    justify-items: center;
+    display: inline-flex;
+    gap: 40px;
+}
+
+.section-header{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project-card{
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #18d26e;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+    justify-items: center;
+    margin: 5px;
+}
+
+.project-card p{
+    margin-left: 9px;
+}
+
+.project-card:hover{
+    background-color: #18d26e;
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.project-image{
+    width: 200px;
+}
